@@ -19,7 +19,14 @@ h1 {
 .list-style {
 
     list-style: none;
+
+}
+
+.image {
+
+    background-image: 350px 500px;
     
+
 }
 
 .box-1 {
