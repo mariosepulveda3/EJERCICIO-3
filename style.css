@@ -1,0 +1,44 @@
+body {
+
+    padding: 50px
+    
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 50px;
+}
+
+.text-right {
+
+    text-align: end;
+
+}
+
+.list-style {
+
+    list-style: none;
+    
+}
+
+.box-1 {
+
+    height: 350px;
+    width: 250px;
+    background-color: blue;
+    display: inline-block;
+    
+}
+
+.text-center {
+
+    text-align: center;
+
+}
+
+.inline {
+
+    display: inline-block;
+
+}
