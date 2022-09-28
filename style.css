@@ -1,13 +1,38 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+@font-face {
+    font-family: 'Titulo', 'Press Start 2P', cursive;
+    src: url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+}
+
 body {
 
-    padding: 50px
+    background-color: rgb(215, 215, 215);
+    padding: 100px
     
 }
 
 h1 {
 
+    font-family: 'Titulo', 'Press Start 2P', cursive;
     text-align: center;
     font-size: 50px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.color-red {
+
+    color: red;
+
 }
 
 .text-right {
@@ -22,10 +47,12 @@ h1 {
 
 }
 
-.image {
 
-    background-image: 350px 500px;
+img {
     
+    height: 350px;
+    width: 250;
+    padding: 5px;
 
 }
 
@@ -33,7 +60,15 @@ h1 {
 
     height: 350px;
     width: 250px;
-    background-color: blue;
+    background-color:  rgb(215, 215, 215);
+    display: inline-block;
+    
+}
+
+.box-2 {
+
+    height: 100px;
+    width: 250px;
     display: inline-block;
     
 }
